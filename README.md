@@ -128,28 +128,8 @@ It is important to carefully consider the impact of ignoring rows or columns on 
 <br />
 
 ## Case Study Analysis
-### *Exploratory Data Analysis (EDA) Inferences:*
+
 After performing exploratory data analysis (EDA) on the loan dataset, several conclusions and insights can be derived. Here are some key findings:
-
-1. Loan Status Distribution: The dataset contains information about different loan statuses, including "Fully Paid," "Current," and "Charged Off." The distribution of loan statuses indicates that a significant number of loans have been fully paid, while a smaller proportion has charged off.
-
-2. Loan Amount: The loan amount varies across different loan statuses. On average, charged-off loans tend to have higher loan amounts compared to fully paid loans.
-
-3. Loan Grade: The loan grade is an important factor influencing the loan status. The dataset includes loan grades ranging from "A" to "G," with "A" being the highest grade indicating lower risk. Lower-grade loans are more likely to be charged off.
-
-4. Interest Rate: The interest rate assigned to a loan also plays a role in loan status. Charged-off loans generally have higher interest rates compared to fully paid loans.
-
-5. Employment Length: The length of employment affects the loan status. Applicants with longer employment history are more likely to have fully paid loans, indicating stability and lower risk.
-
-6. Purpose of Loan: The purpose of the loan, such as debt consolidation, credit card refinancing, or home improvement, influences the loan status. Some loan purposes exhibit higher charge-off rates compared to others.
-
-7. Loan Term: The term of the loan, either 36 or 60 months, has an impact on loan status. Loans with a longer term are more likely to be charged off.
-
-8. Issue Date: The month in which the loan was issued may show certain patterns regarding loan status. Further analysis can be conducted to understand if there are any seasonal or temporal trends.
-
-These conclusions provide insights into the factors that influence loan default or charge-off rates. Lenders can use these findings to improve risk assessment and make informed decisions when approving loans. By identifying the key variables associated with default, such as loan amount, grade, interest rate, employment length, loan purpose, and term, lenders can refine their lending strategies to minimize the risk of financial loss.
-
-<br />
 
 ### *Univariate Analysis Inferences:*
 From the univariate analysis of the loan dataset, we can draw the following inferences:
@@ -166,7 +146,7 @@ From the univariate analysis of the loan dataset, we can draw the following infe
 
 6. Loan Purpose: The dataset includes various loan purposes, such as debt consolidation, credit card refinancing, home improvement, and others. Debt consolidation is the most common loan purpose, followed by credit card refinancing and home improvement.
 
-7. Loan Term: The loan term is either 36 months or 60 months. The distribution is fairly balanced between the two terms, indicating that borrowers have a choice between shorter and longer loan durations.
+7. Loan Term: Loan is granted to applicants for all purposes either for 36 months or 60 months. debt_consolidation lead high in both the terms followed by credit_card.Most of the loan applicants are given 36 months for the loan term.
 
 These inferences provide an overview of the loan dataset and highlight important characteristics of individual variables. They serve as a starting point for further analysis and can help identify potential patterns and relationships between variables in subsequent bivariate or multivariate analyses.
 
