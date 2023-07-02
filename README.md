@@ -38,17 +38,17 @@ The dataset contains information about past loan applicants and whether they def
 ### *Analysis based on Domain Understanding*
 Based on domain understanding in the field of risk analytics and lending, here is an analysis based on data understanding:
 
-*1. Loan Status Distribution:* The loan dataset provides information about the loan statuses, including fully paid, current, and charged-off loans. Understanding the distribution of loan statuses is crucial for risk assessment and portfolio management. By analyzing the proportion of different loan statuses, lenders can identify the potential areas of risk and focus on reducing default rates.
+*1. Loan Status Distribution:*<br> The loan dataset provides information about the loan statuses, including fully paid, current, and charged-off loans. Understanding the distribution of loan statuses is crucial for risk assessment and portfolio management. By analyzing the proportion of different loan statuses, lenders can identify the potential areas of risk and focus on reducing default rates.
 
-*2. Loan Amount Analysis:* The loan amount is an important factor that affects the risk associated with lending. Higher loan amounts may indicate a higher risk of default, as borrowers may struggle to repay larger sums. Analyzing the distribution and characteristics of loan amounts can help lenders determine the maximum loan limits they are comfortable with and identify potential risk thresholds.
+*2. Loan Amount Analysis:*<br> The loan amount is an important factor that affects the risk associated with lending. Higher loan amounts may indicate a higher risk of default, as borrowers may struggle to repay larger sums. Analyzing the distribution and characteristics of loan amounts can help lenders determine the maximum loan limits they are comfortable with and identify potential risk thresholds.
 
-*3. Loan Grade and Interest Rate Analysis:* Loan grade and interest rate are significant factors in risk assessment. Loans with lower grades and higher interest rates generally carry higher default risk. Analyzing the distribution of loan grades and interest rates can help lenders assess the risk associated with different loan segments and price loans accordingly.
+*3. Loan Grade and Interest Rate Analysis:*<br> Loan grade and interest rate are significant factors in risk assessment. Loans with lower grades and higher interest rates generally carry higher default risk. Analyzing the distribution of loan grades and interest rates can help lenders assess the risk associated with different loan segments and price loans accordingly.
 
-*4. Employment Length Analysis:* The length of employment of borrowers provides insights into their stability and ability to repay loans. Analyzing the distribution of employment lengths can help lenders understand the risk associated with borrowers at different stages of their careers. It can also inform decision-making regarding lending criteria based on employment length.
+*4. Employment Length Analysis:*<br> The length of employment of borrowers provides insights into their stability and ability to repay loans. Analyzing the distribution of employment lengths can help lenders understand the risk associated with borrowers at different stages of their careers. It can also inform decision-making regarding lending criteria based on employment length.
 
-*5. Loan Purpose Analysis:* The purpose of a loan can provide insights into the risk profile of borrowers. Different loan purposes may have varying levels of default risk. Analyzing the distribution of loan purposes can help lenders identify high-risk segments and tailor lending strategies accordingly.
+*5. Loan Purpose Analysis:*<br>The purpose of a loan can provide insights into the risk profile of borrowers. Different loan purposes may have varying levels of default risk. Analyzing the distribution of loan purposes can help lenders identify high-risk segments and tailor lending strategies accordingly.
 
-*6. Loan Term Analysis:* Loan term refers to the duration of the loan. Longer loan terms may carry higher default risk, as borrowers have a more extended period to encounter financial difficulties. Analyzing the distribution of loan terms can help lenders evaluate the trade-off between loan duration and default risk.
+*6. Loan Term Analysis:*<br> Loan term refers to the duration of the loan. Longer loan terms may carry higher default risk, as borrowers have a more extended period to encounter financial difficulties. Analyzing the distribution of loan terms can help lenders evaluate the trade-off between loan duration and default risk.
 
 By conducting these analyses based on domain understanding, lenders can gain insights into the key factors that impact loan default and make data-driven decisions to minimize risk and optimize lending strategies. It allows lenders to identify potential patterns, relationships, and risk indicators within the dataset, enabling them to develop effective risk assessment models and make informed lending decisions.
 
@@ -134,19 +134,26 @@ After performing exploratory data analysis (EDA) on the loan dataset, several co
 ### *Univariate Analysis Inferences:*
 From the univariate analysis of the loan dataset, we can draw the following inferences:
 
-1. Loan Status: The majority of loans in the dataset are fully paid (around 80%), followed by current loans and charged-off loans. This indicates that the company has a relatively low default rate.
+1. Loan Status:<br> 
+The majority of loans in the dataset are fully paid (around 80%), followed by current loans and charged-off loans. This indicates that the company has a relatively low default rate.
 
-2. Loan Amount: The loan amount ranges from a few thousand to a maximum of 40,000. The distribution of loan amounts is right-skewed, with a higher concentration of loans in the lower amount range. This suggests that the company primarily provides smaller loans.
+2. Loan Amount:<br> 
+The loan amount ranges from a few thousand to a maximum of 40,000. The distribution of loan amounts is right-skewed, with a higher concentration of loans in the lower amount range. This suggests that the company primarily provides smaller loans.
 
-3. Loan Grade: The loan grades range from 'A' to 'G', with 'A' being the highest grade representing lower risk. The dataset has a higher number of loans with grades 'B' and 'C', indicating that the company mostly lends to borrowers with moderate creditworthiness.
+3. Loan Grade:<br> 
+The loan grades range from 'A' to 'G', with 'A' being the highest grade representing lower risk. The dataset has a higher number of loans with grades 'B' and 'C', indicating that the company mostly lends to borrowers with moderate creditworthiness.
 
-4. Interest Rate: The interest rates assigned to loans range from 5.31% to 30.99%. The distribution is approximately normally distributed, with a peak around 10% to 15% interest rate. Higher interest rates are typically associated with riskier loans.
+4. Interest Rate:<br> 
+The interest rates assigned to loans range from 5.31% to 30.99%. The distribution is approximately normally distributed, with a peak around 10% to 15% interest rate. Higher interest rates are typically associated with riskier loans.
 
-5. Employment Length: The length of employment of borrowers ranges from less than 1 year to over 10 years. The majority of borrowers have an employment length of more than 1 year, suggesting that the company prefers lending to individuals with stable employment.
+5. Employment Length:<br> 
+The length of employment of borrowers ranges from less than 1 year to over 10 years. The majority of borrowers have an employment length of more than 1 year, suggesting that the company prefers lending to individuals with stable employment.
 
-6. Loan Purpose: The dataset includes various loan purposes, such as debt consolidation, credit card refinancing, home improvement, and others. Debt consolidation is the most common loan purpose, followed by credit card refinancing and home improvement.
+6. Loan Purpose:<br> 
+The dataset includes various loan purposes, such as debt consolidation, credit card refinancing, home improvement, and others. Debt consolidation is the most common loan purpose, followed by credit card refinancing and home improvement.
 
-7. Loan Term: Loan is granted to applicants for all purposes either for 36 months or 60 months. debt_consolidation lead high in both the terms followed by credit_card.Most of the loan applicants are given 36 months for the loan term.
+7. Loan Term:<br> 
+Loan is granted to applicants for all purposes either for 36 months or 60 months. debt_consolidation lead high in both the terms followed by credit_card.Most of the loan applicants are given 36 months for the loan term.
 
 These inferences provide an overview of the loan dataset and highlight important characteristics of individual variables. They serve as a starting point for further analysis and can help identify potential patterns and relationships between variables in subsequent bivariate or multivariate analyses.
 
@@ -155,17 +162,29 @@ These inferences provide an overview of the loan dataset and highlight important
 ### *Bivariate Analysis Inferences:*
 Bivariate analysis explores the relationship between two variables in the loan dataset. Here are some inferences from bivariate analysis:
 
-1. Loan Status and Loan Grade: There is a strong association between loan status and loan grade. Higher-grade loans (grades 'A' and 'B') have a higher proportion of fully paid loans, while lower-grade loans (grades 'D' and below) have a higher proportion of charged-off loans. This suggests that loan grade is a good indicator of loan default risk.
+1. Loan Status and Loan Grade:<br>
+There is a strong association between loan status and loan grade. Higher-grade loans (grades 'A' and 'B') have a higher proportion of fully paid loans, while lower-grade loans (grades 'D' and below) have a higher proportion of charged-off loans. This suggests that loan grade is a good indicator of loan default risk.
 
-2. Loan Status and Interest Rate: Charged-off loans tend to have higher interest rates compared to fully paid loans. This indicates that higher interest rates are associated with a higher risk of default. Lenders may consider increasing interest rates for riskier borrowers to mitigate potential losses.
+2. Annual income vs Chargedoff Proportion:<br>
+Income range 80000+  has less chances of charged off. Income range 0-20000 has high chances of charged off. Notice that with increase in annual income charged off proportion got decreased.
 
-3. Loan Status and Employment Length: Borrowers with longer employment lengths are more likely to have fully paid loans, while those with shorter employment lengths have a higher proportion of charged-off loans. This suggests that employment stability is a factor in loan repayment.
+3. Puprose of loan and Loan amount:<br> 
+The purpose of the loan has a significant impact on the loan amount. Certain loan purposes tend to have higher average loan amounts, indicating a greater financial need or investment value associated with those purposes.
 
-4. Loan Status and Loan Amount: There is a positive relationship between loan amount and the likelihood of default. Higher loan amounts are associated with a higher risk of default. Lenders may need to implement stricter criteria or additional risk assessment measures for larger loans.
+4. Loan Amount and Interest Rate:<br>
+There is a positive relationship between Loan Amount and Interest Rate. As the loan amount increases, the interest rate tends to be higher. This suggests that lenders may charge higher interest rates for larger loan amounts to compensate for the increased risk associated with larger loans.
 
-5. Loan Status and Loan Purpose: The loan purpose is associated with loan default rates. Certain loan purposes, such as small business and renewable energy, have a higher proportion of charged-off loans compared to debt consolidation and home improvement. Lenders may need to evaluate the risk associated with specific loan purposes and adjust lending policies accordingly.
+5. DTI and Interest Rate:<br>
+There is a positive relationship between the DTI ratio and the Interest Rate. As the DTI ratio increases, the Interest Rate tends to be higher. This suggests that borrowers with higher DTI ratios, indicating a higher level of debt relative to income, are perceived as higher risk borrowers by lenders, resulting in higher interest rates.
 
-6. Loan Status and Loan Term: Longer loan terms (60 months) have a higher proportion of charged-off loans compared to shorter terms (36 months). This suggests that longer-term loans may carry a higher risk of default. Lenders may need to assess the feasibility of extending loans with longer repayment periods.
+6. Grade and Interest Rate:<br>
+Lower-grade loans are associated with higher default risk. Lenders compensate for this increased risk by charging higher Interest Rates to protect their investment. Higher Interest Rates on lower-grade loans act as a risk premium to cover potential losses in case of default.
+
+7. Purpose and Interest Rate:<br>
+ The purpose of the loan provides insights into the borrower's intended use of the funds and their financial situation. Lenders assess the risk associated with each loan purpose and adjust the interest rate accordingly. Higher-risk loan purposes may be charged higher interest rates to compensate for the increased likelihood of default.
+
+8. Recoveries and Annual income<br>
+Higher percentage of loan amount is recovered when annual income is high. Plot shows no significant variation but there is slight increase in recovery percentage with increase in annual income.
 
 These inferences highlight the relationships and dependencies between different variables in the loan dataset. By understanding these relationships, lenders can make informed decisions about loan approvals, interest rates, and risk assessment to minimize the risk of default and financial loss.
 
