@@ -7,7 +7,7 @@
 * [Approach](#approach)
 * [Case Study Analysis](#case-study-analysis)
 * [Technologies Used](#technologies-used)
-* [Glossary](#glossary)
+* [Summary](#Summary)
 * [Team](#team)
 
 <br />
@@ -191,19 +191,27 @@ These inferences highlight the relationships and dependencies between different 
 <br />
 
 ## Technologies Used
-- [Python - Version 3.9.12](https://www.python.org/download/releases/3.0/)
-- [numpy - Version 1.21.5](https://github.com/numpy)
-- [pandas - Version 1.4.2](https://github.com/pandas-dev/pandas)
-- [matplotlib - Version 3.5.1](https://github.com/matplotlib)
-- [seaborn - Version 0.11.2](https://github.com/seaborn)
-- [Jupyter Notebook - Version 3.3.2]()
-- [JupyterLab - Version 6.4.11]()
-- [Anaconda - Version 2.1.4]()
+- [Python]
+- [numpy]
+- [pandas]
+- [matplotlib]
+- [seaborn]
+- [Jupyter Notebook]
+- [Anaconda]
 
 <br />
 
-## Glossary
-- EDA - Exploratory Data Analytics
+## Summary
+- The lending club case study focuses on a consumer finance company that specializes in lending various types of loans to urban customers.
+- The company receives loan applications and makes decisions on loan approvals based on the applicant's profile, considering the risk associated with each applicant.
+- Two types of risks are involved: approving a loan to an applicant who is likely to default, resulting in a financial loss, and not approving a loan to an applicant who is likely to repay, resulting in a loss of business.
+- The goal of the case study is to identify patterns and indicators of loan default using exploratory data analysis (EDA).
+- EDA is performed on a loan dataset containing information about past loan applicants and their loan repayment status.
+- The dataset includes attributes such as loan grade, annual income, loan amount, interest rate, purpose of the loan, and more.
+- Univariate analysis is performed to understand the distribution and characteristics of individual variables.
+- Bivariate analysis is performed to understand the relationship between two variables, such as loan status and loan grade, annual income and charged-off proportion, purpose of the loan and loan amount, etc.
+- The findings from the analysis can be utilized by the lending company to make informed decisions on loan approvals, interest rates, and risk assessment.
+- The case study highlights the importance of EDA in understanding risk analytics in the banking and financial services industry.
 
 <br />
 
